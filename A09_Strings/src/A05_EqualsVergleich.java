@@ -23,6 +23,6 @@ public class A05_EqualsVergleich {
         System.out.println("Inhalt g und f " + a.equals(g));//false
 
         System.out.println("Inhalt g und f " + a.equalsIgnoreCase(g));//true
-
+        // equalsIgnoreCase() vergleicht die Inhalte der Strings, ignoriert dabei aber die Groß- und Kleinschreibung.
     }
 }

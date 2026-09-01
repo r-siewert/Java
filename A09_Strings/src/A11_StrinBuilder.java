@@ -23,3 +23,6 @@ public class A11_StrinBuilder {
         System.out.println("Text: " + text);
     }   
 }
+// Strings sind immutable, d.h. sie können nicht verändert werden. Jede Veränderung erzeugt einen neuen String.
+// Durch den StringBuilder können Strings verändert werden, ohne dass ein neuer String erzeugt wird. 
+// Der StringBuilder ist also effizienter, wenn viele Veränderungen an einem String vorgenommen werden sollen.
