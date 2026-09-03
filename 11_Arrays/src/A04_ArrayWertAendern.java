@@ -5,9 +5,7 @@ public class A04_ArrayWertAendern {
 
         System.out.println("Vor dem Input: " + punkte[1]);
 
-
         punkte[1] = 33;
-
         System.out.println("Nach dem Input: " + punkte[1]);
 
 
