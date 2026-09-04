@@ -23,7 +23,7 @@ public class A06_Summe {
             summe += werte[i];
         }
 
-        System.out.println("Summe: " + summe); // 24
+        System.out.println("Gesamtstunden: " + summe);
 
     }
 }
