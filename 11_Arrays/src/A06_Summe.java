@@ -6,6 +6,8 @@ public class A06_Summe {
 
 
         //-3 -2 -1 0 1 2 3
+     
+        // TODO: handle exception
         for(int i = 0; i < werte.length; i++){
             
             // summe += Math.abs(werte[i]);
