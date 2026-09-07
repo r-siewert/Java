@@ -5,10 +5,7 @@ public class RegenMMinEinerWoche {
         
         Scanner scanner = new Scanner(System.in);
 
-        // System.out.println("Bitte geben sie die Werte ein: ");
-        // double wert1 = scanner.nextDouble();
-
-        // double[] Regenmenge = {};
+        
         double[] regenmenge = new double[4]; // nachdem ein Wert der Größe eines Arrays festgelegt wurde, ist es immutable und kann nicht mehr an der Größe verändert werden.
 
         for(int i = 0; i < regenmenge.length; i++ ){

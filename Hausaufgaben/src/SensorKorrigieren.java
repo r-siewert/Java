@@ -27,7 +27,7 @@ public class SensorKorrigieren {
 
         startwerte[index] = eingabe;
 
-        System.out.println("Korrigierter Wert an Index " + index + ": 4" + eingabe + ", " + startwerte[index]);
+        System.out.println("Korrigierter Wert an Index " + index + ": " + eingabe + ", " + startwerte[index]);
 
 
         scanner.close();
