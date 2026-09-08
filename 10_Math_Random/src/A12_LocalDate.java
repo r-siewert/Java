@@ -1,8 +1,6 @@
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-import javax.swing.text.DateFormatter;
-
 public class A12_LocalDate {
     public static void main(String[] args) {
         LocalDate start = LocalDate.of(2024, 2, 28);
