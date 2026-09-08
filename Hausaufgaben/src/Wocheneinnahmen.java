@@ -9,21 +9,21 @@ public class Wocheneinnahmen {
 
         System.out.println("Bitte geben Sie 7 Werte mit Kommazahlen ein: ");
 
-        for(int i = 0; i < wocheneinnahmen.length; i++ ){
+        for (int i = 0; i < wocheneinnahmen.length; i++) {
             double eingabe = scanner.nextDouble();
 
             wocheneinnahmen[i] = eingabe;
-        
-            summe += wocheneinnahmen[i];            
+
+            summe += wocheneinnahmen[i];
         }
 
         System.out.printf("Summe: %.2f%n", summe);
-        double durchschnitt = (double) summe / wocheneinnahmen.length;    
-        System.out.printf("Durchschnitt: %.2f%n", durchschnitt);     
+        double durchschnitt = (double) summe / wocheneinnahmen.length;
+        System.out.printf("Durchschnitt: %.2f%n", durchschnitt);
+
+        scanner.close();
     }
 }
-
-
 
 // % . 2 f
 // │ │ │ └── floating-point number → Kommazahl
