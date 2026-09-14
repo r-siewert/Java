@@ -1,16 +1,16 @@
 
-class Zaehler {
+// class Zaehler {
 
-    int wert; // InstanzVariable
+//     int wert; // InstanzVariable
 
-    void erhoehen() { // InstanzMethode
-        wert++;
-    }
+//     void erhoehen() { // InstanzMethode
+//         wert++;
+//     }
 
-    int aktuellerWert() { // InstanzMethode
-        return wert;
-    }
-}
+//     int aktuellerWert() { // InstanzMethode
+//         return wert;
+//     }
+// }
 
 public class A04_InstanzMethode {
     public static void main(String[] args) {

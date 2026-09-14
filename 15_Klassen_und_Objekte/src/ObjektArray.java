@@ -1,0 +1,19 @@
+class Teilnehmer {
+    String name;
+}
+
+public class ObjektArray {
+    public static void main(String[] args) {
+        Teilnehmer[] teilnehmer = new Teilnehmer[2];
+
+        System.out.println("Vorher: " + teilnehmer[0]); // null.. da noch keine Namen enthalten sind im Array
+
+        teilnehmer[0] = new Teilnehmer();
+        teilnehmer[1] = new Teilnehmer();
+
+        teilnehmer[0].name = "Stefan";
+        teilnehmer[1].name = "Reik";
+
+        System.out.println("Teilnehmer: " + teilnehmer[0].name + " - " + teilnehmer[1].name);
+    }
+}
