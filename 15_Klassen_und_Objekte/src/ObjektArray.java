@@ -15,5 +15,9 @@ public class ObjektArray {
         teilnehmer[1].name = "Reik";
 
         System.out.println("Teilnehmer: " + teilnehmer[0].name + " - " + teilnehmer[1].name);
+
+        for (int i = 0; i < teilnehmer.length; i++) {
+            System.out.println("Teilnehmer: " + teilnehmer[i].name);
+        }
     }
 }
