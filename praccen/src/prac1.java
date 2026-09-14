@@ -17,15 +17,23 @@ public class prac1 {
             summe += zahlenanalyse[i];
         }
 
-        for (int j = 0; j < 5; j++) {
-
-        }
-
         int maximum = zahlenanalyse[0];
         int minimum = zahlenanalyse[0];
 
+        for (int j = 0; j < 5; j++) {
+            minimum = Math.min(minimum, zahlenanalyse[j]);
+            maximum = Math.max(maximum, zahlenanalyse[j]);
+        }
+
+        double durchschnitt = (double) summe / zahlenanalyse.length;
+
         System.out.println(Arrays.toString(zahlenanalyse));
-        System.out.println(summe);
+        System.out.println("Summe: " + summe);
+        System.out.printf("Durchschnitt: %.2f%n", durchschnitt);
+        System.out.println("Minimum: " + minimum);
+        System.out.println("Maximum: " + maximum);
+
+        scanner.close();
     }
 
 }
