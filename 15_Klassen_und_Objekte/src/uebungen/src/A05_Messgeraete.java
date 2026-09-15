@@ -34,5 +34,7 @@ public class A05_Messgeraete {
 
         System.out.println(messgeraete1.name + ": " + messgeraete1.wert);
         System.out.println(messgeraete2.name + ": " + messgeraete2.wert);
+
+        scanner.close();
     }
 }
