@@ -12,12 +12,15 @@ public class ObjektArray {
         teilnehmer[1] = new Teilnehmer();
 
         teilnehmer[0].name = "Stefan";
+        teilnehmer[0].name = "Tissot";
         teilnehmer[1].name = "Reik";
+        teilnehmer[1].name = "Perner";
 
-        System.out.println("Teilnehmer: " + teilnehmer[0].name + " - " + teilnehmer[1].name);
+        System.out.println("Teilnehmer: " + teilnehmer[0].name + " - " + teilnehmer[0].name);
+        System.out.println("Teilnehmer: " + teilnehmer[1].name + " - " + teilnehmer[1].name);
 
         for (int i = 0; i < teilnehmer.length; i++) {
-            System.out.println("Teilnehmer: " + teilnehmer[i].name);
+            System.out.println("Teilnehmer: " + teilnehmer[i].name + " - " + teilnehmer[1].name);
         }
     }
 }
