@@ -26,7 +26,14 @@ class Bestellung {
 public class A07_ReferenzImKonstruktor {
     public static void main(String[] args) {
 
+        // new Kunde ("Peteter") erzeugt ein Kunde-Objekt
+        // Die Variable Kunde erhält eine Referenz auf dieses Objekt
+
         Kunde kunde = new Kunde("Peteter");
+
+        // Bestellung(Kunde) erzeugt ein Bestellung-Objekt
+        // Die Referenz auf den vorhandenen Kunden wird an den
+        // Konstruktor der Bestellung übergeben
         Bestellung bestellung = new Bestellung(kunde);
 
         System.out.println("Bestellung: " + bestellung.kunde.name);
