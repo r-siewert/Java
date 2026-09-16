@@ -3,7 +3,7 @@ class Lampe { // Klasse
     // Instanzvariable
     String farbe;
 
-    void einschalten() { // Methode
+    void einschalten() { // Methode // Eigenschaft
         System.out.println("Lampe " + farbe + " ist an!");
     }
 
