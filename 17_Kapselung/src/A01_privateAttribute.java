@@ -6,7 +6,7 @@ class Konto {
         this.guthaben = betrag;
     }
 
-    int getGuthaben() {
+    int getGuthaben() { // wir können nur mit unseren eigenen Methoden auf das private zugreifen
         return this.guthaben;
     }
 }
