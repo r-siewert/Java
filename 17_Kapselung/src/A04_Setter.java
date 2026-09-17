@@ -1,5 +1,5 @@
 
-class Anzaige {
+class Anzeige {
     private String text;
 
     public String getText() {
@@ -11,9 +11,9 @@ class Anzaige {
     }
 }
 
-public class A04_Anzeige {
+public class A04_Setter {
     public static void main(String[] args) {
-        Anzaige anzeige = new Anzaige();
+        Anzeige anzeige = new Anzeige();
         anzeige.setText("was auch immer!");
 
         System.out.println(anzeige.getText());
