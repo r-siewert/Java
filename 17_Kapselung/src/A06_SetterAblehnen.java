@@ -22,9 +22,10 @@ public class A06_SetterAblehnen {
 
         System.out.println("Punktestand: " + punktestand.getPunkte());
 
-        punktestand.setPunkte(-50);
+        punktestand.setPunkte(-60);
 
         System.out.println("Punktestand: " + punktestand.getPunkte());
+
     }
 
 }

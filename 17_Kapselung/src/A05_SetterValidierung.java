@@ -3,7 +3,7 @@ class Temperatur {
 
     public boolean setWert(double pwert) {
         if (pwert < -100.00) {
-            return false;
+            return false; // wirft die Temperatur auf 0.0
         }
 
         this.wert = pwert;
@@ -20,7 +20,7 @@ public class A05_SetterValidierung {
 
         Temperatur messung = new Temperatur();
 
-        boolean temp = messung.setWert(120);
+        boolean temp = messung.setWert(+120);
 
         if (temp) {
             System.out.println("Temp ist io: " + messung.getWert());
