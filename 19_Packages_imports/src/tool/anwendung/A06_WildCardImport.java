@@ -9,10 +9,11 @@ public class A06_WildCardImport {
 
         ArrayList<String> namen = new ArrayList<>();
         HashSet<Integer> punkte = new HashSet<>();
-
+        // Arraylist Items
         namen.add("Peter");
         namen.add("Pan");
 
+        // Hashset Items -> keine Duplikate
         punkte.add(10);
         punkte.add(10);
         punkte.add(11);
