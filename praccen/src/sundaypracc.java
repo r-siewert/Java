@@ -13,5 +13,14 @@ public class sundaypracc {
             System.out.println(x + " ");
         }
 
+        String name = "Fred";
+        System.out.println("Hello " + // Saying hello
+                name); // to Fred
+        System.out.println("Good /* and " +
+                " greeting */ day!");
+        System.out // A welcome message
+                .println("Welcome " + name);
+        System.out.println("Goodbye /* Farewall + name");
+
     }
 }
