@@ -18,7 +18,7 @@ public class Konto {
     }
 
     public String getInfo() {
-        return "KontoInfo iban: " + getIban() + ", Saldo= {" + saldo + "}";
+        return "KontoInfo iban: " + getIban() + ", Saldo= " + saldo + " EUR";
     }
 
     public void einzahlen(double betrag) {
