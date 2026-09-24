@@ -12,4 +12,5 @@ public class Auto extends Fahrzeug {
     public int getTueren() {
         return tueren;
     }
+
 }

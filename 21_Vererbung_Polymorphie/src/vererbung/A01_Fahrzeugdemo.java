@@ -5,5 +5,9 @@ public class A01_Fahrzeugdemo {
         Auto auto = new Auto("Mercedes", 4);
 
         auto.starten();
+
+        Motorrad motorrad = new Motorrad("Kawasaki", 2);
+
+        motorrad.starten();
     }
 }
