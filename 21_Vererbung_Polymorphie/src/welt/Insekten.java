@@ -12,4 +12,9 @@ public class Insekten extends Lebewesen {
     public int getFluegelAnzahl() {
         return fluegelAnzahl;
     }
+
+    @Override
+    public void geraeuscheMachen() {
+        System.out.println(getName() + "(insekt) macht geraeusch!");
+    }
 }

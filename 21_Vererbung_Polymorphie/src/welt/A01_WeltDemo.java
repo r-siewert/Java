@@ -12,5 +12,14 @@ public class A01_WeltDemo {
         System.out.println("Beine: " + kitty.getBeineAnzahl());
 
         kitty.geraeuscheMachen();
+
+        Fliege puk = new Fliege("Puk");
+
+        puk.geraeuscheMachen();
+        System.out.println("Flügel: " + puk.getFluegelAnzahl());
+
+        Biene maja = new Biene("Maja");
+        maja.geraeuscheMachen();
+        System.out.println("Flügel " + maja.getFluegelAnzahl());
     }
 }
