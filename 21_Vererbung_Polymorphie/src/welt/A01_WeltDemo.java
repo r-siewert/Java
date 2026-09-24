@@ -6,15 +6,12 @@ public class A01_WeltDemo {
         Katze kitty = new Katze("Kitty");
 
         rex.geraeuscheMachen();
-
         System.out.println("Beine: " + rex.getBeineAnzahl());
 
+        kitty.geraeuscheMachen();
         System.out.println("Beine: " + kitty.getBeineAnzahl());
 
-        kitty.geraeuscheMachen();
-
         Fliege puk = new Fliege("Puk");
-
         puk.geraeuscheMachen();
         System.out.println("Flügel: " + puk.getFluegelAnzahl());
 
