@@ -12,4 +12,8 @@ public class Tiere extends Lebewesen {
     public int getBeineAnzahl() {
         return beineAnzahl;
     }
+
+    public void geraeuscheMachen() {
+        System.out.println(getName() + "(Tier) macht ein geraeusch.");
+    }
 }

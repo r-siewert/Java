@@ -8,8 +8,12 @@ public class Lebewesen {
         this.name = name;
     }
 
-    public void geraeusche() {
+    public void geraeuscheMachen() {
         System.out.println(name + " macht geraeusche!");
+    }
+
+    public String getName() {
+        return name;
     }
 
 }
