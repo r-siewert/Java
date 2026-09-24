@@ -13,4 +13,8 @@ public class Auto extends Fahrzeug {
         return tueren;
     }
 
+    public void starten() {
+        System.out.println("Fahrzeug der Marke: " + super.getMarke() + " startet per Knopfdruck!");
+    }
+
 }

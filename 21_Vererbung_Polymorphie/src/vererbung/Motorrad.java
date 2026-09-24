@@ -15,6 +15,7 @@ public class Motorrad extends Fahrzeug {
 
     // das nennt sich Polymorphie
     // Override, da public void starten, von Fahrzeug überschrieben wird.
+    @Override
     public void starten() {
         System.out.println("Das Motorrad der Marke: " + super.getMarke() + " hat " + getSitzAnzahl()
                 + " Sitzplaetze und startet mit Kickstarter!");
